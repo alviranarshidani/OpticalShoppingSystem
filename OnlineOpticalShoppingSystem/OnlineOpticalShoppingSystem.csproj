@@ -168,7 +168,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Application\ContactLensController.cs" />
     <Compile Include="Controllers\Application\FramesController.cs" />
+    <Compile Include="Controllers\Application\GoggelsController.cs" />
+    <Compile Include="Controllers\Application\LensController.cs" />
+    <Compile Include="Controllers\Application\SolutionsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -247,6 +251,10 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Frames\Index.cshtml" />
+    <Content Include="Views\Solutions\Index.cshtml" />
+    <Content Include="Views\ContactLens\Index.cshtml" />
+    <Content Include="Views\Goggels\Index.cshtml" />
+    <Content Include="Views\Lens\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
