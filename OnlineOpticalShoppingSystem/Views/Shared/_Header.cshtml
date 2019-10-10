@@ -7,19 +7,20 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="@Url.Action("Index", "Home")" class="elements"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-                <li><a href="@Url.Action("Index", "Frames")" class="elements"><span class="glyphicon glyphicon-sunglasses"></span>Frames</a></li>
-                <li><a href="lenspage.php"><span class="glyphicon glyphicon-record"></span>Lens</a></li>
-                <li><a href="goggelspage.php"><span class="glyphicon glyphicon-sunglasses"></span>Goggels</a></li>
-                <li><a href="contactlenspage.php"><span class="glyphicon glyphicon-eye-open"></span>Contact Lens</a></li>
-                <li><a href="solutionpage.php"><span class="glyphicon glyphicon-tint"></span>Solution</a></li>
-                <li><a href="aboutuspage.php"><span class="glyphicon glyphicon-pencil"></span>About Us</a></li>
-                <li><a href="contactuspage.php"><span class="glyphicon glyphicon-phone-alt"></span>Contact Us</a></li>
+                <li class="active"><a href="@Url.Action("Index", "Home")" class="elements"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="@Url.Action("Index", "Frames")" class="elements"><span class="glyphicon glyphicon-sunglasses"></span> Frames</a></li>
+                @*<li><a href="@Url.Action("Index", "Lens")"><span class="glyphicon glyphicon-record"></span> Lens</a></li>
+                <li><a href="@Url.Action("Index", "Goggels")"><span class="glyphicon glyphicon-sunglasses"></span> Goggels</a></li>
+                <li><a href="@Url.Action("Index", "ContactLens")"><span class="glyphicon glyphicon-eye-open"></span> Contact Lens</a></li>
+                <li><a href="@Url.Action("Index", "Solutions")"><span class="glyphicon glyphicon-tint"></span> Solution</a></li>*@
+                <li><a href="@Url.Action("About", "Home")"><span class="glyphicon glyphicon-pencil"></span> About Us</a></li>
+                <li><a href="@Url.Action("Contact", "Home")"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+                
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <ul class="nav navbar-right">
+                 @Html.Partial("_LoginPartial")
             </ul>
+
         </div>
     </nav>
 </div>
