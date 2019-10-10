@@ -189,6 +189,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\img_frame\1.jpg" />
+    <Content Include="Resources\img_frame\2.jpg" />
+    <Content Include="Resources\img_frame\3.jpg" />
     <Content Include="Resources\slide\qclens.jpg" />
     <Content Include="Resources\slide\qframe.jpg" />
     <Content Include="Resources\slide\qgoggels.jpg" />
@@ -243,10 +246,10 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Frames\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Frames\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

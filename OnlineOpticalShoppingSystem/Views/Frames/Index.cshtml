@@ -1,0 +1,70 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@for (int i = 0; i < 3; i++) {
+<div class="col-sm-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Full Frame</div>
+        <div class="panel-body">
+            <img src='~/Resources/img_frame/1.jpg' class='img-responsive' style='width:100%;height:220px' alt='Image'>
+        </div>
+        <div class="panel-footer">
+            <div>
+                <button class="btn btn-link pull-left">
+                    Read More..
+                    @*<a href="#">Read More..</a>*@
+                </button>
+                <h3>
+                    $20
+                    <button id="btn_buy" name="btn_buy" class="btn btn-md btn-success">BUY</button>
+                    <a href="#"><span class="glyphicon glyphicon-shopping-cart glyphicon"></span></a>
+                    <a href="#"><span class="glyphicon glyphicon-cloud"></span></a>
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Half Frame</div>
+        <div class="panel-body">
+            <img src='~/Resources/img_frame/2.jpg' class='img-responsive' style='width:100%;height:220px' alt='Image'>
+        </div>
+        <div class="panel-footer">
+            <button class="btn btn-link pull-left">
+                Read More..
+                @*<a href="#">Read More..</a>*@
+            </button>
+            <h3>
+                $20
+                <button id="btn_buy" name="btn_buy" class="btn btn-md btn-success">BUY</button>
+                <a href="#"><span class="glyphicon glyphicon-shopping-cart glyphicon"></span></a>
+                <a href="#"><span class="glyphicon glyphicon-cloud"></span></a>
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Rimless Frame</div>
+        <div class="panel-body">
+            <img src='~/Resources/img_frame/3.jpg' class='img-responsive' style='width:100%;height:220px' alt='Image'>
+        </div>
+        <div class="panel-footer">
+            <button class="btn btn-link pull-left">
+                Read More..
+                @*<a href="#">Read More..</a>*@
+            </button>
+            <h3>
+                $20
+                <button id="btn_buy" name="btn_buy" class="btn btn-md btn-success">BUY</button>
+                <a href="#"><span class="glyphicon glyphicon-shopping-cart glyphicon"></span></a>
+                <a href="#"><span class="glyphicon glyphicon-cloud"></span></a>
+            </h3>
+        </div>
+    </div>
+</div>
+}
